@@ -7,6 +7,8 @@ export const Container = styled.div`
 `;
 export const Title = styled.h1`
   ${({ theme }) => css`
-    color: ${theme.colors.white}
+    color: ${theme.colors.secondaryColor};
+    font-size: ${theme.font.sizes.xlarge};
+    font-weight: 800;
   `}
 `

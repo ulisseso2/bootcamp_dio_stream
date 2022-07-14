@@ -5,7 +5,7 @@ import { Menu } from '../Menu';
 export const Header = () => {
   return (
     <Styled.Container>
-      <Styled.Title>NETFLIX</Styled.Title>
+      <Styled.Title>ULIFLIX</Styled.Title>
       <Menu/>
     </Styled.Container>
   );

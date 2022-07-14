@@ -15,6 +15,10 @@ export const Container = styled.nav`
     }
     li {
       padding:${theme.spacings.xsmall};
+      color: ${theme.colors.mediumGray};
+      cursor: pointer;
+    }
+    li:hover {
       color: ${theme.colors.white}
     }
   `}
