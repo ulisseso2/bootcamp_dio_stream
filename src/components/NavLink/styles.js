@@ -4,6 +4,7 @@ export const Container = styled.nav`
   ${({ theme }) => css`
     display: flex;
     flex-flow: row wrap;
+    margin-right: 100px;
 
     @media ${theme.font.media.ltmedium} {
       flex-flow: column wrap;

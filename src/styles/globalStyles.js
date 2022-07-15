@@ -22,10 +22,6 @@ export const GlobalStyles = createGlobalStyle`
   p {
     margin: ${({ theme }) => theme.spacings.medium} 0;
   }
-  ul, ol {
-    margin: ${({ theme }) => theme.spacings.medium};
-    padding: ${({ theme }) => theme.spacings.medium};
-  }
   a {
     color: ${({ theme }) => theme.colors.secondaryColor};
   }

@@ -1,15 +1,12 @@
-import P from 'prop-types';
 import * as Styled from './styles';
 import { NavLink } from '../NavLink';
-export const Menu = ({ children }) => {
+import { Login } from '../MenuLogin';
+export const Menu = () => {
   return (
     <Styled.Container>
+      <Styled.Logo><img src='https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.svg'/></Styled.Logo>
       <NavLink />
-      {children}
+      <Login />
     </Styled.Container>
   );
-};
-
-Menu.propTypes = {
-  children: P.node.isRequired,
 };

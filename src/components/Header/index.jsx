@@ -5,7 +5,6 @@ import { Menu } from '../Menu';
 export const Header = () => {
   return (
     <Styled.Container>
-      <Styled.Title>ULIFLIX</Styled.Title>
       <Menu/>
     </Styled.Container>
   );
